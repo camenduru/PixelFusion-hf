@@ -73,7 +73,7 @@ interface = gr.Interface(fn=style_transfer,
                                 content_slider,
                                 # style_checkbox
                                 ],
-                         outputs=gr.outputs.Image(),
+                         outputs=gr.outputs.Image(type="pil"),
                          title=title,
                          description=description,
                          article=article,
