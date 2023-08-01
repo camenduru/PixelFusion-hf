@@ -63,8 +63,7 @@ content_slider = gr.inputs.Slider(1,5,label="Content Sharpness" ,default=1,)
 
 examples  = [
                 ["Content/content_1.jpg","Styles/style_1.jpg",1.20,1.70,"style_checkbox"], 
-                ["Content/content_2.jpg","Styles/style_2.jpg",0.91,2.54,"style_checkbox"],
-                ["Content/content_3.png","Styles/style_3.jpg",1.02,2.47,"style_checkbox"]
+                ["Content/content_2.jpg","Styles/style_2.jpg",0.91,2.54,"style_checkbox"]
             ]
 interface = gr.Interface(fn=style_transfer,
                          inputs=[content_input,
