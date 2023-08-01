@@ -82,4 +82,4 @@ interface = gr.Interface(fn=style_transfer,
                          )
     
     
-interface.launch()
+interface.launch(share=True)
